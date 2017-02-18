@@ -1,0 +1,8 @@
+{
+  "name": "jsux-elements",
+  "version": "0.0.1",
+  "description": "A package with basic building blocks used by Evozon's JavaScript department",
+  "main": "index.js",
+  "author": "Paul BRIE",
+  "license": "MIT"
+}
