@@ -8,7 +8,7 @@ npm install git://github.com/evozonjs/elements.git --save
 
 ## elements/response
 
-elements/response proposes a standard format for messages. We propose the following attributes:
+elements/response proposes a standard format for json messages. We use the following attributes:
 
 Name       | Type         | Required | Default | Description
 ---------- | ------       | -------- | ------- | -------
@@ -26,7 +26,8 @@ The constructor accepts the following instantiation scenarios:
 // load an element
 const response = require('elements/response');
 
-// 1 object parameter holding some of all the attributes
+// 1 object parameter holding some or all the attributes. 
+// remember that 'ok' attribute is required
 console.log(new response({ ok: false, err: 'some error'}));
  
 /**
