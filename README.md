@@ -84,5 +84,7 @@ console.log(response(true, [1,2,3], { extra: 'some data' }));
 As a bonus, if the `data` attribute is an array, and if `metadata.count` is not defined by the user the constructor will
 automatically put the array length into `metadata.count`.
 
+If the format of an attribute is not accepted and error will be thrown.
+
 ## Licence
 MIT
