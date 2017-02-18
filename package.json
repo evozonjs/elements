@@ -1,5 +1,5 @@
 {
-  "name": "jsux-elements",
+  "name": "evozonjs-elements",
   "version": "0.0.1",
   "description": "A package with basic building blocks used by Evozon's JavaScript department",
   "main": "index.js",
