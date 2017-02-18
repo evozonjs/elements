@@ -1,3 +1,4 @@
+[![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 # Evozonjs Elements
 Evozonjs Elements is a suite of basic building blocks used in the JavaScript department of [Evozon](https://evozon.com).
 
@@ -26,10 +27,10 @@ The constructor accepts the following instantiation scenarios:
 // load an element
 const response = require('elements/response');
 
-// 1 object parameter holding some or all the attributes. 
+// 1 object parameter holding some or all the attributes.
 // remember that 'ok' attribute is required
 console.log(new response({ ok: false, err: 'some error'}));
- 
+
 /**
 -- will return --
 { uid: '76a16e00-f5dc-11e6-af8e-cf6322a4a5f7',
@@ -41,9 +42,9 @@ console.log(new response({ ok: false, err: 'some error'}));
   msg: '' }
 */
 
-// or 1 boolean parameter considered as being the 'ok' attribute 
+// or 1 boolean parameter considered as being the 'ok' attribute
 console.log(response(true));
-/** 
+/**
 -- will return --
 { uid: '76a16e00-f5dc-11e6-af8e-cf6322a4a5f7',
   ok: true,
@@ -56,7 +57,7 @@ console.log(response(true));
 
 // or 2 parameters considered as being the 'ok' attribute and the 'data' attribute
 console.log(new response(true, [1,2,3]));
-/** 
+/**
 -- will return --
 { uid: 'f66328d0-f5dd-11e6-9ba8-61642a559e2e',
   ok: true,
