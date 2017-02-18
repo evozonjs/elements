@@ -4,5 +4,9 @@
   "description": "A package with basic building blocks used by Evozon's JavaScript department",
   "main": "index.js",
   "author": "Paul BRIE",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/evozonjs/elements"
+  }
 }
